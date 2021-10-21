@@ -5,11 +5,11 @@ function Form_process(){
     if (!gname || !gprice){
         alert("Поля должны быть заполнены!");
     }
-    else if (!Search_double(elem, gname)){ 
-        Add_to_goods(gname, gprice); 
+    else if (Search_double(elem, gname)){ 
+        alert("Такой товар уже есть!");
     }
     else {
-        alert("Такой товар уже есть!");
+        Add_to_goods(gname, gprice); 
     }
     document.forms["my_form"]["fname"].value = '';
     document.forms["my_form"]["fprice"].value = '';
@@ -17,24 +17,29 @@ function Form_process(){
 
 // ТУТ ОДНА БОЛЬШАЯ ПРОБЛЕМА !!!!
 function Search_double(elem, name) {
-    // if (elem.childNodes.length === 1){
-    //     alert("False");
-    //     return false;
-    // } else {
-    alert(document.getElementById("goods").childNodes[0].childNodes[1].textContent);
-    Array.from(elem.childNodes).forEach(element => {
-        if (element.childNodes[0] == name) {
-            alert("True");
+    Array.from(elem.children).forEach(element => {
+        console.log("Ok");
+        if (element.childNodes[0].textContent == name) {
+            console.log(element.childNodes[0].textContent);
+            console.log("True");
             return true;
         }
     });
-        // elem.children.forEach(element => {
-        //     if (element.childNodes[0].textContent == name) {
-        //         alert("True");
-        //         return true;
-        //     }
-        // });
-    // }
+    return false;
+}
+
+function Add_to_goods(name, price){
+    const new_row = document.createElement("div");
+    const new_name = document.createElement("div");
+    const new_price = document.createElement("div");
+    new_row.setAttribute("class", "my_row");
+    new_row.setAttribute("onclick", "Put_in_basket(this)");
+    new_price.setAttribute("class", "highlight");
+    new_name.innerHTML = name;
+    new_price.innerHTML = price;
+    document.getElementById("goods").appendChild(new_row);
+    new_row.appendChild(new_name);
+    new_row.appendChild(new_price);
 }
 
 function Add_to_basket(name, price) {
@@ -62,20 +67,6 @@ function Add_to_basket(name, price) {
         new_row.appendChild(new_amount);
     }
 
-}
-
-function Add_to_goods(name, price){
-    const new_row = document.createElement("div");
-    const new_name = document.createElement("div");
-    const new_price = document.createElement("div");
-    new_row.setAttribute("class", "my_row");
-    new_row.setAttribute("onclick", "Put_in_basket(this)");
-    new_price.setAttribute("class", "highlight");
-    new_name.innerHTML = name;
-    new_price.innerHTML = price;
-    document.getElementById("goods").appendChild(new_row);
-    new_row.appendChild(new_name);
-    new_row.appendChild(new_price);
 }
 
 function Put_in_basket(elem) {

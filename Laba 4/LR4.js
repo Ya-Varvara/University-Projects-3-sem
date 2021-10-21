@@ -15,17 +15,8 @@ function Form_process(){
     document.forms["my_form"]["fprice"].value = '';
 }
 
-// ТУТ ОДНА БОЛЬШАЯ ПРОБЛЕМА !!!!
 function Search_double(elem, name) {
-    Array.from(elem.children).forEach(element => {
-        console.log("Ok");
-        if (element.childNodes[0].textContent == name) {
-            console.log(element.childNodes[0].textContent);
-            console.log("True");
-            return true;
-        }
-    });
-    return false;
+    return !!Array.from(elem.children).find(element=>element.childNodes[0].innerText == name);
 }
 
 function Add_to_goods(name, price){
@@ -43,10 +34,10 @@ function Add_to_goods(name, price){
 }
 
 function Add_to_basket(name, price) {
-    if (!Search_double(document.getElementById("basket"), name)){
-        document.getElementById("basket").childNodes.array.forEach(element => {
-            if (element.childNodes[0].textContent == name) {
-                alert("Ok");
+    if (Search_double(document.getElementById("basket"), name)){
+        Array.from(document.getElementById("basket").children).forEach(element => {
+            if (element.childNodes[0].innerText == name) {
+                //alert("Ok");
                 let amount = parseInt(element.childNodes[2].textContent) + 1;
                 element.childNodes[2].innerHTML = amount;
             }
@@ -72,7 +63,6 @@ function Add_to_basket(name, price) {
 function Put_in_basket(elem) {
     const gname = elem.childNodes[0].textContent;
     const gprice = elem.childNodes[1].textContent;
-    //elem.remove();
     Add_to_basket(gname, gprice);
 }
 
@@ -80,10 +70,10 @@ function Get_cost(){
     const text = document.getElementById("cost");
     let value = 0;
     const basket = document.getElementById("basket");
-    if (basket.hasChildNodes && basket.children.length > 1) {
+    if (basket.hasChildNodes && basket.children.length >= 1) {
         for (let i = 1; i < basket.children.length; ++i) {
             value += parseInt(basket.children[i].childNodes[1].textContent)*parseInt(basket.children[i].childNodes[2].textContent);
-            console.log("Value+=");
+            //console.log("Value+=");
         }
     } else {
         console.log("There is no children");

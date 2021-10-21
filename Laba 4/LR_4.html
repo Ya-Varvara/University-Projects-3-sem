@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Заказ</title>
+    <style>
+        .col-6{
+            width: 50%; 
+            float: left; 
+            text-align: center;
+        }
+        .my_table{
+            display: table;
+            width: 98%;
+            margin: 10px;
+            background-color: white;
+            border-collapse:collapse;
+        }
+        .my_row{
+            display: table-row;
+            width: auto;
+        }
+        .my_row *{
+            display: table-cell;
+            width: auto;
+            border:rgb(0, 0, 0) solid ;
+            padding: 7px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        div.highlight:hover {
+            background-color: rgba(255, 0, 55, 0.356);
+        }
+    </style>
+
+</head>
+<body>
+    <div class="row" style="margin: 10px;">
+        <div style="width: 50%;">
+            <form name="my_form">
+                <table style="margin: auto;">
+                    <tr>
+                        <td>Наименование: </td>
+                        <td><input type="text" name="fname"/> <br/></td>
+                    </tr>
+                    <tr>
+                        <td>Цена: </td>
+                        <td><input type="number" name="fprice"/> <br/></td>
+                    </tr>
+                    <!-- <tr>
+                        <td>Кол-во: </td>
+                        <td><input type="amount" name="famount"/> <br/></td>
+                    </tr> -->
+                    <tr>
+                        <td colspan="2" style="text-align: center;">
+                            <button type="button" onclick="Form_process()">Добавить</button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-6">
+            <h3>Список товаров</h3>
+            <div class="my_table" id="goods">
+                <div class="my_row">
+                    <div>Наименование</div>
+                    <div>Цена</div>
+                    <!-- <div>Кол-во</div> -->
+                </div>
+            </div>
+        </div>
+        <div class="col-6">
+            <h3>Корзина</h3>
+            <div class="my_table" id="basket">
+                <div class="my_row">
+                    <div>Наименование</div>
+                    <div>Цена</div>
+                    <div>Кол-во</div>
+                </div>
+            </div>
+            <div>
+                <button class="btn" style="margin: 10px;" onclick="Get_cost()">Расчитать стоимость</button>
+            </div>
+        </div>
+        <div id="cost" style="width: 50%; float: right;"></div>
+    </div>
+    <script src="LR4.js"></script>
+</body>

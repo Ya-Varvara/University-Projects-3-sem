@@ -73,7 +73,6 @@ function Get_cost(){
     if (basket.hasChildNodes && basket.children.length >= 1) {
         for (let i = 1; i < basket.children.length; ++i) {
             value += parseInt(basket.children[i].childNodes[1].textContent)*parseInt(basket.children[i].childNodes[2].textContent);
-            //console.log("Value+=");
         }
     } else {
         console.log("There is no children");

@@ -37,7 +37,6 @@ function Add_to_basket(name, price) {
     if (Search_double(document.getElementById("basket"), name)){
         Array.from(document.getElementById("basket").children).forEach(element => {
             if (element.childNodes[0].innerText == name) {
-                //alert("Ok");
                 let amount = parseInt(element.childNodes[2].textContent) + 1;
                 element.childNodes[2].innerHTML = amount;
             }

@@ -17,14 +17,14 @@ class TestCalculate < Minitest::Unit::TestCase
   end
 
   def test_3
-    x = -1.0
-    z = -1.0
+    x = -1
+    z = -1
     assert_equal 1.001, calculate(x, z)
   end
 
   def test_4
     x = 10.0
-    z = 10.0
+    z = 10
     assert_equal 0.953, calculate(x, z)
   end
 

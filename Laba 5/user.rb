@@ -1,10 +1,9 @@
 require './main'
 
-puts 'Hello world!'
 puts 'Введите значение x'
-x = gets.chomp.to_f
+x = gets.chomp
 puts 'Введите значение z'
-z = gets.chomp.to_f
+z = gets.chomp
 
 if calculate(x, z)
   puts "y = #{calculate(x, z)}"

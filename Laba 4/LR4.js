@@ -15,6 +15,7 @@ function Form_process(){
     document.forms["my_form"]["fprice"].value = '';
 }
 
+// Функция поиска такого же товара в корзине 
 function Search_double(elem, name) {
     return !!Array.from(elem.children).find(element=>element.childNodes[0].innerText == name);
 }

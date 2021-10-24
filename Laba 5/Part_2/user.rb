@@ -3,7 +3,7 @@ require './main'
 puts "Print string else print 0 to stop the program"
 text = []
 while true do
-  str = gets.chomp!
+  str = gets.chomp
   break if str == '0'
   text << str unless str.empty?
 end
@@ -11,7 +11,14 @@ end
 puts "Original strings:"
 puts text
 
-text.each { |str| fix_str(str) }
+text.each do |st|
+  arr_words = []
+  st.scan(/#+\w+#+/).size.times do
+    puts "Input word for change"
+    arr_words << gets.chomp
+  end
+  ChangeString(st, arr_words)
+end
 
 puts "Fixed strings:"
 puts text

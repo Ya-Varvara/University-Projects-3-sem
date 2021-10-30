@@ -1,7 +1,5 @@
-# frozen_string_literal: true
-
 # Функция, считающая площадь фигуры
-def intprg(a, b, &block)
+def intprg(a, b, &_block)
   sum = 0.0
   n = 100
   step = ((b.to_f - a.to_f) / n).round(5)

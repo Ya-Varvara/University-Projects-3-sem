@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 # фукнция, вычисляющая k-й член ряда
 def member_of_row(k)
   1.0 / (k * (k + 1))

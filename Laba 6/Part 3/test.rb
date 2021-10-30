@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 require 'minitest/autorun'
 require './main_3'
 
@@ -21,4 +19,3 @@ class TestIntprg < Minitest::Unit::TestCase
     assert_equal(1.12538, intprg(0, 1, &->(x) { Math.exp(x) / (x + 1) }))
   end
 end
-

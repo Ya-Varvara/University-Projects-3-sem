@@ -1,4 +1,3 @@
-# frozen_string_literal: true
 require './main'
 
 puts "Sum of the row with eps = 0.001 :  #{sum_of_row(0.001)}"

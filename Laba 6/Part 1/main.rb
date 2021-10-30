@@ -1,4 +1,3 @@
-# frozen_string_literal: true
 # фукнция, вычисляющая k-й член ряда
 def member_of_row(k)
   1.0 / (k * (k + 1))
@@ -9,7 +8,7 @@ def sum_of_row(eps)
   k = 1
   count = 0
   sum = 0.0
-  while (member_of_row(k+1) - member_of_row(k)).abs > eps
+  while (member_of_row(k + 1) - member_of_row(k)).abs > eps
     sum += member_of_row(k)
     k += 1
     count += 1

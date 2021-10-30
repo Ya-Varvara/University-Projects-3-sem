@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 require 'minitest/autorun'
 require './main'
 
@@ -13,4 +11,3 @@ class TestSumOfRow < Minitest::Unit::TestCase
     assert_equal(0.96296, sum_of_row(0.0001))
   end
 end
-

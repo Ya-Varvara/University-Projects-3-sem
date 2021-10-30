@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require './main'
 
 puts 'Введите значение x'
@@ -8,5 +10,5 @@ z = gets.chomp
 if calculate(x, z)
   puts "y = #{calculate(x, z)}"
 else
-  puts "y не определен!"
+  puts 'y не определен!'
 end

@@ -3,7 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="21b54723-d791-47e2-b2da-29f34da45103" name="Changes" comment="Сделана часть main и user">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part_1/main.rb" beforeDir="false" afterPath="$PROJECT_DIR$/Part_1/main.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part_1/test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/Part_1/test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part_1/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/Part_1/user.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part_2/main.rb" beforeDir="false" afterPath="$PROJECT_DIR$/Part_2/main.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Part_2/test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/Part_2/test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part_2/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/Part_2/user.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +29,9 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager" selected="Ruby.test">
+  <component name="RunManager" selected="Ruby.user">
     <configuration name="test" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="Laba 5" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
@@ -58,8 +64,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Ruby.test" />
         <item itemvalue="Ruby.user" />
+        <item itemvalue="Ruby.test" />
       </list>
     </recent_temporary>
   </component>
@@ -72,7 +78,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1634918543368</updated>
-      <workItem from="1634918545138" duration="18440000" />
+      <workItem from="1634918545138" duration="22520000" />
+      <workItem from="1635498190456" duration="3310000" />
+      <workItem from="1635535282768" duration="2464000" />
     </task>
     <task id="LOCAL-00001" summary="Сделана часть main и user">
       <created>1634929453988</created>
@@ -97,13 +105,14 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Сделана часть main и user" />
     <option name="LAST_COMMIT_MESSAGE" value="Сделана часть main и user" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Laba_5@test.rcov" NAME="test Coverage Results" MODIFIED="1635078100056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Part_2" MODULE_NAME="Laba 5" />
-    <SUITE FILE_PATH="coverage/Laba_5@user.rcov" NAME="user Coverage Results" MODIFIED="1635078016407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Part_2" MODULE_NAME="Laba 5" />
+    <SUITE FILE_PATH="coverage/Laba_5@test.rcov" NAME="test Coverage Results" MODIFIED="1635498824598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Part_2" MODULE_NAME="Laba 5" />
+    <SUITE FILE_PATH="coverage/Laba_5@user.rcov" NAME="user Coverage Results" MODIFIED="1635498941824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Part_2" MODULE_NAME="Laba 5" />
   </component>
 </project>

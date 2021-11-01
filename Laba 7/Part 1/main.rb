@@ -10,7 +10,7 @@ end
 
 def file_create(file_f)
   File.open(file_f, 'w') do |file|
-    str = (0..20 + rand(10)).map { rand(65..85).chr }.join.downcase!
+    str = (rand(20..30)).map { rand(65..85).chr }.join.downcase
     str.insert(rand(str.length - 1), 'a') unless str.include?('a')
     file.write(str)
   end

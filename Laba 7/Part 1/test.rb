@@ -3,16 +3,14 @@ require './main'
 
 # Presteps
 def generate_files(file_f)
-  str_f = (0..20 + rand(10)).map { rand(65..85).chr }
+  str_f = (rand(20..30)).map { rand(65..85).chr }
   str_f.insert(rand(str_f.length - 1), 'A') unless str_f.include?('A')
-  File.open(file_f, 'w') do |file|
-    file.write(str_f.join.downcase!)
-  end
+  File.open(file_f, 'w') { |file| file.write(str_f.join.downcase) }
   str_h = []
   (1..str_f.length - 1).each do |i|
     str_h << str_f[i] if str_f[i - 1] == 'A'
   end
-  str_h.join.downcase!
+  str_h.join.downcase
 end
 
 # Test

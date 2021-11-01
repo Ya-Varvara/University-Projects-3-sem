@@ -20,7 +20,7 @@ text.each do |st|
     puts 'Input word for change'
     arr_words << gets.chomp
   end
-  ChangeString(st, arr_words)
+  change_string(st, arr_words)
 end
 
 puts 'Fixed strings:'

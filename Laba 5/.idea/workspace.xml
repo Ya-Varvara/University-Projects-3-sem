@@ -5,10 +5,10 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Part_1/main.rb" beforeDir="false" afterPath="$PROJECT_DIR$/Part_1/main.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Part_1/test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/Part_1/test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part_1/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/Part_1/user.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Part_2/main.rb" beforeDir="false" afterPath="$PROJECT_DIR$/Part_2/main.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Part_2/test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/Part_2/test.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Part_2/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/Part_2/user.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laba 7/Part 2/main.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../Laba 7/Part 2/main.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +28,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Laba 6" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager" selected="Ruby.user">
@@ -44,6 +44,21 @@
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" ENABLE_BRANCH_COVERAGE="true" ENABLE_FORKED_COVERAGE="true" />
       <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/Part_2/test.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="user (1)" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="Laba 5" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/Part_1" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" ENABLE_BRANCH_COVERAGE="true" ENABLE_FORKED_COVERAGE="true" />
+      <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/Part_1/user.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method v="2" />
     </configuration>
@@ -65,6 +80,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Ruby.user" />
+        <item itemvalue="Ruby.user (1)" />
         <item itemvalue="Ruby.test" />
       </list>
     </recent_temporary>
@@ -81,6 +97,10 @@
       <workItem from="1634918545138" duration="22520000" />
       <workItem from="1635498190456" duration="3310000" />
       <workItem from="1635535282768" duration="2464000" />
+      <workItem from="1635790330733" duration="123000" />
+      <workItem from="1635790485962" duration="668000" />
+      <workItem from="1635791162414" duration="643000" />
+      <workItem from="1635791823937" duration="669000" />
     </task>
     <task id="LOCAL-00001" summary="Сделана часть main и user">
       <created>1634929453988</created>
@@ -112,7 +132,8 @@
     <option name="LAST_COMMIT_MESSAGE" value="Сделана часть main и user" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Laba_5@user__1_.rcov" NAME="user (1) Coverage Results" MODIFIED="1635791483908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Part_1" MODULE_NAME="Laba 5" />
     <SUITE FILE_PATH="coverage/Laba_5@test.rcov" NAME="test Coverage Results" MODIFIED="1635498824598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Part_2" MODULE_NAME="Laba 5" />
-    <SUITE FILE_PATH="coverage/Laba_5@user.rcov" NAME="user Coverage Results" MODIFIED="1635498941824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Part_2" MODULE_NAME="Laba 5" />
+    <SUITE FILE_PATH="coverage/Laba_5@user.rcov" NAME="user Coverage Results" MODIFIED="1635791531379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Part_2" MODULE_NAME="Laba 5" />
   </component>
 </project>

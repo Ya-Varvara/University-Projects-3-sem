@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICS6 Bootstrap</title>
+    <link href="https://e-learning.bmstu.ru/iu6/pluginfile.php/7546/mod_folder/content/0/bootstrap.min.css?forcedownload=1" rel="stylesheet">
+    <style>
+        html {
+            position: relative;
+            min-height: 100%;
+        }
+        body {
+            margin-bottom: 40px;
+        }
+        main {
+            margin-top: 15px;
+        }
+        footer {
+            height: 40px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+        .my-primary {
+            background-color:hotpink;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark my-primary">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://vk.com/varya.yakovleva" target="_blanc">Vk</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <div class="row" style="text-align: center;">
+            <div class="col">
+                <div>Привет! Меня зовут Варя ^-^</div>
+            </div>
+        </div>
+        <div class="row" style="text-align: center;">
+            <div class="col">
+                <img src="https://e-learning.bmstu.ru/iu6/pluginfile.php/7546/mod_folder/content/0/avatar.jpg?forcedownload=1" alt="avatar" width="150" height="150" style="margin: 25px;">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <form>
+                    <table>
+                        <tr>
+                            <th colspan="2" style="text-align: center;">Введите данные :)</th>
+                        </tr>
+                        <tr>
+                            <td>Имя: </td>
+                            <td><input type="text" name="fname" /> <br/></td>
+                        </tr>
+                        <tr>
+                            <td>Фамилия: </td>
+                            <td><input type="text" name="fsurname" /> <br/> </td>
+                        </tr>
+                        <tr>
+                            <td>Дата рождения:</td>
+                            <td><input type="date"  /> <br/> </td>
+                        </tr>
+                        <tr>
+                            <td>Номер телефона: </td>
+                            <td><input type="tel" /> <br/></td>
+                        </tr>
+                        <tr>
+                            <td>Пароль: </td>
+                            <td><input type="password" /> <br/></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="text-align:center;" ><button class="btn btn-secondary" style="margin: 10px;">Отправить</button></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+            <div class="col-8">
+                <table class="table table-striped table-bordered" >
+                    <tr>
+                        <th><strong>Время</strong></th>
+                        <th><strong>ЧС</strong></th>
+                        <th><strong>ЗН</strong></th>
+                    </tr>
+                    <tr>
+                        <td>8:30 - 10:05</td>
+                        <td><em>(лек)</em> Правоведение</td>
+                        <td><em>(лек)</em> Теория вероятностей и математическая статистика</td>
+                    </tr>
+                    <tr>
+                        <td>10:15 - 11:50</td>
+                        <td colspan="2"><em>(лек)</em> Теория вероятностей и математическая статистика</td>
+                    </tr>
+                    <tr>
+                        <td>12:00 - 13:35</td>
+                        <td colspan="2"><em>(сем)</em> Правоведение</td>
+                    </tr>
+                    <tr>
+                        <td>13:50 - 15:25</td>
+                        <td colspan="2"><em>(сем)</em> Элективный курс по физической культуре и спорту</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="row" style="text-align: center;">
+            <div class="col">
+                <style> h3, h4, div {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;} </style>
+                <h4 style="color: navy;">Леонид Филатов</h4>
+                <h3 style="color: mediumvioletred;">Про Федота-стрельца, удалого молодца</h3>
+                <div>    
+                    Верьте аль не верьте, а жил на белом свете Федот-стрелец, удалой молодец. <br/>
+                    Был Федот ни красавец, ни урод, ни румян, ни бледен, ни богат, ни беден, <br/>
+                    ни в парше, ни в парче, а так, вообче. <br/>
+                    Служба у Федота — рыбалка да охота. <br/>
+                    Царю — дичь да рыба, Федоту — спасибо. <br/>
+                    <br/>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="my-primary">
+        <div class="container">
+            <p class="footer-text">Footer</p>
+        </div>
+    </footer>
+</body>
+</html>

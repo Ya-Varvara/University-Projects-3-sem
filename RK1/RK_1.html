@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        РК1
+    </title>
+    <style>
+        #submitData{
+            float: right;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>
+        РК №1<br>
+        Яковлева Варвара Андреевна<br>
+        ИУ6-35Б<br>
+        Вариант № 18 <br>
+    </h1>
+    <p>
+        Дан массив чисел arr_b. 
+        Найти частное от деления кол-ва элементов, индексы которых кратны 3, на последний положительный элемент массива
+    </p>
+    <form name="input_form">
+        <table>
+            <tr>
+                <td>
+                    Введите элементы через пробел:
+                </td>
+                <td>
+                    <input type="text" name="input_field" id="input_field">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" id="submitData">
+                    <button type="button" name="Data" onclick="Form_process()">Выполнить</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+    <div>
+        <p>Введенный массив: </p>
+        <p id="output_original"></p>
+    </div>
+    <div>
+        <p>Результат:</p>
+        <p id="output_new"></p>
+    </div>
+
+    <script type="text/javascript">
+        function Form_process(){
+            const input_str = document.forms["input_form"]["input_field"].value;
+            const Arr_b = input_str.split(' ');
+            //console.log(Arr_b);
+            Output_fun(Arr_b, document.getElementById("output_original"));
+            const res = Result(Arr_b);
+            Output_fun(res, document.getElementById("output_new"))
+        }
+        function Output_fun(data, elem){
+            elem.innerHTML = '';
+            elem.innerHTML += data;
+        }
+        function Result(arr){
+            let res = 0;
+            let count = 0;
+            let positive_el;
+            for (let i = 0; i<arr.length; ++i) {
+                if (i % 3 == 0) {
+                    count += 1;
+                }
+                if (arr[i] > 0) {
+                    positive_el = arr[i];
+                }
+            }
+            if (positive_el && count > 0) {
+                return (count/positive_el).toFixed(3);
+            } else {
+                return "В массиве нет положительных элементов"
+            }
+        }
+    </script>
+</body>
+
+</html>

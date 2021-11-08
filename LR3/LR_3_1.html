@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Стихи</title>
+</head>
+
+<body>
+    <h4>Леонид Филатов</h4>
+    <h3>Про Федота-стрельца, удалого молодца</h3>
+    <div>
+        <p>
+            Стихотворение
+        </p>
+        <p>
+            Продолжение
+        </p>
+    </div>
+    <div>
+        <input type="button" value="Напечатать дерево" onclick="text.innerHTML=''; console.clear(); out(document.documentElement, '')">
+        <h4>
+            Дерево объектов HTML DOM
+        </h4>
+        <p id="tree"></p>
+    </div>
+    <script id="scr">
+        const text = document.getElementById("tree");
+        function out(el, tab) {
+            if (el.nodeType == Node.ELEMENT_NODE) {
+                text.innerHTML += tab + '&lt;' + el.nodeName + '&gt;' + '<br/>';
+                console.log(el.nodeName.trim());
+            } else if (el.textContent.trim()) {
+                text.innerHTML += tab + el.textContent + '<br/>';
+                console.log(el.textContent.trim()); 
+            }
+            if (el.hasChildNodes && el.id != text.id && el.id != "scr") {
+                el.childNodes.forEach(element => {
+                    out(element, tab + '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;');
+                });
+            }
+            if (el.nodeType == Node.ELEMENT_NODE) {
+                text.innerHTML += tab + '&lt;/' + el.nodeName + '&gt;' + '<br/>';
+            }
+        }
+    </script>
+    
+</body>

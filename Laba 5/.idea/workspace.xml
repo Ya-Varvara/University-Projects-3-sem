@@ -20,7 +20,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Laba 6" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager" selected="Ruby.user">
@@ -93,6 +93,7 @@
       <workItem from="1635790485962" duration="668000" />
       <workItem from="1635791162414" duration="643000" />
       <workItem from="1635791823937" duration="1007000" />
+      <workItem from="1636399191453" duration="13000" />
     </task>
     <task id="LOCAL-00001" summary="Сделана часть main и user">
       <created>1634929453988</created>

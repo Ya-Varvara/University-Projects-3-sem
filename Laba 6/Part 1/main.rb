@@ -8,7 +8,7 @@ def sum_of_row(eps)
   k = 1
   count = 0
   sum = 0.0
-  while (member_of_row(k + 1) - member_of_row(k)).abs > eps
+  while member_of_row(k) > eps
     sum += member_of_row(k)
     k += 1
     count += 1

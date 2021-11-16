@@ -14,7 +14,7 @@ def sum_of_row(eps)
       k += 1
     end
   end
-  sum = members.take_while { (member_of_row(k + 1) - member_of_row(k)).abs > eps }.sum.round(5)
+  sum = members.take_while { member_of_row(k) > eps }.sum.round(5)
   puts "Количество итераций: #{count}"
   sum
 end

@@ -1,7 +1,7 @@
 require 'minitest/autorun'
 require './main'
 
-class TestSumOfRow < Minitest::Unit::TestCase
+class TestSumOfRow < Minitest::Test
   def test_first
     assert_equal(1, sum_of_row(0.001).round)
   end

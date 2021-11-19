@@ -8,8 +8,10 @@ def generate_random_string(len)
 end
 
 def generate_array_and_str(orig_s, change_s, arr)
-  change_s.split.each_with_index do |word, index|
-    if rand(change_s.split.length) == index
+  change_s = change_s.split
+  len = change_s.length
+  change_s.each_with_index do |word, index|
+    if rand(len) == index
       new_word = "\##{(0..rand(3..7)).map { rand(65..90).chr }.join}\#"
       arr << word
       orig_s << new_word
@@ -26,6 +28,6 @@ class TestChangeString < Minitest::Unit::TestCase
     change_str = generate_random_string(5)
     arr_w = []
     generate_array_and_str(orig_str, change_str, arr_w)
-    assert_equal(change_str, ChangeString(orig_str.join(' '), arr_w))
+    assert_equal(change_str, change_string(orig_str.join(' '), arr_w))
   end
 end

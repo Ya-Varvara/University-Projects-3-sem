@@ -7,7 +7,8 @@ def file_processing(file_f, file_h)
   f.close
   h.close
 end
-
+# переписать на file.open
+# each -> map
 def file_create(file_f)
   File.open(file_f, 'w') do |file|
     str = (0..rand(20..30)).map { rand(65..85).chr }.join.downcase

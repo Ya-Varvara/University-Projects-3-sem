@@ -11,11 +11,21 @@ end
 
 # Test
 class TestFileProcessing < Minitest::Unit::TestCase
+  def setup
+    @file_f = "#{(0..5).map{ rand(65..90).chr }.join.downcase}.txt"
+    @file_h = "#{(0..5).map{ rand(65..90).chr }.join.downcase}.txt"
+  end
+
   def test_first
-    str_exp_file_h = generate_files('F.txt')
-    str_file_h = ''
-    file_processing('F.txt', 'H.txt')
-    File.open('H.txt', 'r') { |file| str_file_h = file.read.chomp }
-    assert_equal(str_exp_file_h, str_file_h)
+    str_exp_file_h = generate_files(@file_f)
+    file_processing(@file_f, @file_h)
+    File.open(@file_h, 'r') do |file|
+      assert_equal(str_exp_file_h, file.read.chomp)
+    end
+  end
+
+  def teardown
+    File.delete(@file_f)
+    File.delete(@file_h)
   end
 end

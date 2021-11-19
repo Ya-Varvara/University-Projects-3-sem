@@ -23,4 +23,8 @@ class Ball < Circle
   def volume
     (4 * 3.14 * radius**3 / 3).round
   end
+
+  private def a
+    puts 1
+  end
 end

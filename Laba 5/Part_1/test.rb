@@ -4,7 +4,7 @@ require 'minitest/autorun'
 require './main'
 
 # Ruby Documentation
-class TestCalculate < Minitest::Unit::TestCase
+class TestCalculate < Minitest::Test
   def test_first
     x = 5.0
     z = rand(-5..9)

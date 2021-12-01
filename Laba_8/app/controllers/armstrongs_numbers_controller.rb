@@ -4,13 +4,25 @@ class ArmstrongsNumbersController < ApplicationController
   def input; end
 
   def view
-    @received = params[:v1].to_i
-    if @received >= 1 && @received <= 9
-      @numbers = find_numbers(@received.to_i)
-      @result = "Числа Армстронга длиной #{@received}"
-    else
-      @result = 'Введенная длина числа некорректна!'
-      @numbers = []
+    begin
+      @received = Integer(params[:v1])
+      if @received >= 1 && @received <= 9
+        @numbers = find_numbers(@received.to_i)
+        @result = "Числа Армстронга длиной #{@received}"
+      else
+        @result = 'Введенная длина числа некорректна!'
+        @numbers = 'Incorrect!'
+      end
+    rescue StandardError
+      @result = 'Пусто'
+      @numbers = 'Empty!'
+    end
+    respond_to do |format|
+      format.html
+      format.json do
+        render json:
+                { type: @numbers.class, value: @numbers }
+      end
     end
   end
 end

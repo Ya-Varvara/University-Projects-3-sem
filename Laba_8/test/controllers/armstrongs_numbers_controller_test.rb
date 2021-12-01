@@ -20,7 +20,7 @@ class ArmstrongsNumbersControllerTest < ActionController::TestCase
   end
 
   test 'should get from view with empty' do
-    expected = 'Введенная длина числа некорректна!'
+    expected = 'Пусто'
     get :view, params: { v1: '' }
     assert_equal expected, assigns[:result]
   end

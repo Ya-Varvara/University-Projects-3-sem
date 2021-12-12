@@ -1,6 +1,6 @@
 <h1>Числа Армстронга</h1>
 <p>Введите кол-во знаков для чисел Армстронга</p>
-<%= form_tag("/armstrongs_numbers/view", :method => "get") do %>
+<%= form_tag("/armstrongs_numbers/view.xml", :method => "get") do %>
   <%= label_tag("Кол-во знаков") %>
   <%= text_field_tag(:v1) %> <br/>
   <br/>

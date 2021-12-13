@@ -951,3 +951,64 @@ Processing by ArmstrongsNumbersController#index as XML
 Completed 200 OK in 4ms (Views: 1.0ms | Allocations: 729)
 
 
+Started GET "/?v1=3&format=xml" for ::1 at 2021-12-13 18:21:35 +0300
+  [1m[35m (2.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"3"}
+Completed 200 OK in 53ms (Views: 24.2ms | ActiveRecord: 0.0ms | Allocations: 6467)
+
+
+Started GET "/?v1=3&format=xml" for ::1 at 2021-12-13 18:22:35 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"3"}
+Completed 200 OK in 6ms (Views: 2.1ms | ActiveRecord: 0.0ms | Allocations: 3966)
+
+
+Started GET "/?v1=3&format=xml" for ::1 at 2021-12-13 18:23:09 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"3"}
+Completed 200 OK in 8ms (Views: 3.6ms | ActiveRecord: 0.0ms | Allocations: 3861)
+
+
+Started GET "/?v1=3&format=xml" for ::1 at 2021-12-13 18:23:33 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"3"}
+Completed 200 OK in 3ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 3861)
+
+
+Started GET "/?v1=123&format=xml" for ::1 at 2021-12-13 18:24:19 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"123"}
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 439)
+
+
+Started GET "/?v1=hello&format=xml" for ::1 at 2021-12-13 18:25:56 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"hello"}
+Completed 200 OK in 3ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 733)
+
+
+Started GET "/?v1=3&format=xml" for ::1 at 2021-12-13 18:26:36 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"3"}
+Completed 200 OK in 7ms (Views: 2.1ms | ActiveRecord: 0.0ms | Allocations: 3856)
+
+
+Started GET "/?v1=3&format=xml" for ::1 at 2021-12-13 18:27:00 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"3"}
+Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 3856)
+
+
+Started GET "/?v1=hello&format=xml" for ::1 at 2021-12-13 18:27:32 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"hello"}
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 732)
+
+
+Started GET "/?v1=123&format=xml" for ::1 at 2021-12-13 18:27:55 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"123"}
+Completed 200 OK in 1ms (Views: 0.3ms | Allocations: 429)
+
+

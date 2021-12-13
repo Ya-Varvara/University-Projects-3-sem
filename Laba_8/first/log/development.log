@@ -1012,3 +1012,28 @@ Processing by ArmstrongsNumbersController#index as XML
 Completed 200 OK in 1ms (Views: 0.3ms | Allocations: 429)
 
 
+Started GET "/?v1=3&format=xml" for ::1 at 2021-12-13 21:38:05 +0300
+  [1m[35m (13.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"3"}
+Completed 200 OK in 271ms (Views: 229.8ms | ActiveRecord: 0.0ms | Allocations: 6467)
+
+
+Started GET "/?v1=3&format=xml" for ::1 at 2021-12-13 21:38:21 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"3"}
+Completed 200 OK in 52ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 3966)
+
+
+Started GET "/?v1=3&format=xml" for ::1 at 2021-12-13 21:38:27 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"3"}
+Completed 200 OK in 4ms (Views: 1.2ms | ActiveRecord: 0.0ms | Allocations: 3861)
+
+
+Started GET "/?v1=3&format=xml" for ::1 at 2021-12-13 21:38:37 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"3"}
+Completed 200 OK in 3ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 3861)
+
+

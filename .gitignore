@@ -5,35 +5,39 @@
 # git config —global core.excludesfile '~/.gitignore_global'
 
 # Ignore bundler config.
-*/.bundle
+/*/.bundle
 
 # Ignore the default SQLite database.
-*/db/*.sqlite3
-*/db/*.sqlite3-journal
-*/db/*.sqlite3-*
+/*/db/*.sqlite3
+/*/db/*.sqlite3-journal
+/*/db/*.sqlite3-*
 
 # Ignore all logfiles and tempfiles.
-*/log/*
-*/tmp/*
+/*/log/*
+/*/tmp/*
 
 # Ignore pidfiles, but keep the directory.
-*/tmp/pids/*
+/*/tmp/pids/*
 !*/tmp/pids/
 
 # Ignore uploaded files in development.
-*/storage/*
+/*/storage/*
 
-*/public/assets/*
-*/.byebug_history
+/*/public/assets/*
+/*/.byebug_history
 
 # Ignore master key for decrypting credentials and more.
-*/config/master.key
+/*/config/master.key
 
-*/public/packs/*
-*/public/packs-test/*
-*/node_modules/*
-*/yarn-error.log
-*/yarn-debug.log*
-*/.yarn-integrity
+/*/public/packs/*
+/*/public/packs-test/*
+/*/node_modules/*
+/*/yarn-error.log
+/*/yarn-debug.log*
+/*/.yarn-integrity
 
 !*/.keep
+/Laba_8/first/node_modules/
+/Laba_8/second/node_modules/
+/Laba_8/second/tmp/
+/Laba_8/first/tmp/

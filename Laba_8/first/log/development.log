@@ -1,0 +1,953 @@
+Started GET "/armstrongs_numbers/input" for ::1 at 2021-12-12 17:15:22 +0300
+  [1m[35m (6.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ArmstrongsNumbersController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering armstrongs_numbers/input.html.erb within layouts/application
+  Rendered armstrongs_numbers/input.html.erb within layouts/application (Duration: 9.2ms | Allocations: 871)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+yarn run v1.22.17
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+
+
+error Command "webpack" not found.
+
+  Rendered layout layouts/application.html.erb (Duration: 1487.6ms | Allocations: 19655)
+Completed 500 Internal Server Error in 1552ms (ActiveRecord: 0.0ms | Allocations: 27095)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application.js in C:/Users/varia/Desktop/University/3 SEM/WebProg/University-Projects/Laba_8/first/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+):
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    10:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    11:   </head>
+    12: 
+    13:   <body>
+  
+app/views/layouts/application.html.erb:10
+Started GET "/" for ::1 at 2021-12-12 17:15:44 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 4.9ms | Allocations: 265)
+Completed 200 OK in 9ms (Views: 5.9ms | ActiveRecord: 0.0ms | Allocations: 3930)
+
+
+Started GET "/" for ::1 at 2021-12-12 17:15:44 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 4.7ms | Allocations: 261)
+Completed 200 OK in 8ms (Views: 5.7ms | ActiveRecord: 0.0ms | Allocations: 3810)
+
+
+Started GET "/armstrongs_numbers/input" for ::1 at 2021-12-12 17:15:48 +0300
+Processing by ArmstrongsNumbersController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering armstrongs_numbers/input.html.erb within layouts/application
+  Rendered armstrongs_numbers/input.html.erb within layouts/application (Duration: 0.7ms | Allocations: 439)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+yarn run v1.22.17
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+
+
+error Command "webpack" not found.
+
+  Rendered layout layouts/application.html.erb (Duration: 1165.6ms | Allocations: 6630)
+Completed 500 Internal Server Error in 1172ms (ActiveRecord: 0.0ms | Allocations: 10582)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application.js in C:/Users/varia/Desktop/University/3 SEM/WebProg/University-Projects/Laba_8/first/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+):
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    10:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    11:   </head>
+    12: 
+    13:   <body>
+  
+app/views/layouts/application.html.erb:10
+Started GET "/" for 127.0.0.1 at 2021-12-12 17:18:13 +0300
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 3.5ms | Allocations: 493)
+Completed 200 OK in 13ms (Views: 5.8ms | ActiveRecord: 0.0ms | Allocations: 6330)
+
+
+Started GET "/armstrongs_numbers/input" for 127.0.0.1 at 2021-12-12 17:18:19 +0300
+Processing by ArmstrongsNumbersController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering armstrongs_numbers/input.html.erb within layouts/application
+  Rendered armstrongs_numbers/input.html.erb within layouts/application (Duration: 0.8ms | Allocations: 518)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+yarn run v1.22.17
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+
+
+error Command "webpack" not found.
+
+  Rendered layout layouts/application.html.erb (Duration: 1186.9ms | Allocations: 9676)
+Completed 500 Internal Server Error in 1199ms (ActiveRecord: 0.0ms | Allocations: 13788)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application.js in C:/Users/varia/Desktop/University/3 SEM/WebProg/University-Projects/Laba_8/first/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+):
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    10:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    11:   </head>
+    12: 
+    13:   <body>
+  
+app/views/layouts/application.html.erb:10
+Started GET "/" for 127.0.0.1 at 2021-12-12 17:23:38 +0300
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ArmstrongsNumbersController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering armstrongs_numbers/input.html.erb within layouts/application
+  Rendered armstrongs_numbers/input.html.erb within layouts/application (Duration: 1.0ms | Allocations: 746)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+yarn run v1.22.17
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+
+
+error Command "webpack" not found.
+
+  Rendered layout layouts/application.html.erb (Duration: 1434.4ms | Allocations: 9946)
+Completed 500 Internal Server Error in 1446ms (ActiveRecord: 0.0ms | Allocations: 16176)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application.js in C:/Users/varia/Desktop/University/3 SEM/WebProg/University-Projects/Laba_8/first/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+):
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    10:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    11:   </head>
+    12: 
+    13:   <body>
+  
+app/views/layouts/application.html.erb:10
+Started GET "/" for ::1 at 2021-12-12 17:28:45 +0300
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ArmstrongsNumbersController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering armstrongs_numbers/input.html.erb within layouts/application
+  Rendered armstrongs_numbers/input.html.erb within layouts/application (Duration: 1.1ms | Allocations: 746)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in C:/Users/varia/Desktop/University/3 SEM/WebProg/University-Projects/Laba_8/first/public/packs
+[Webpacker] Hash: e2a8a876c5815bee1e21
+Version: webpack 4.46.0
+Time: 1212ms
+Built at: 12.12.2021 17:28:48
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-e421b4aa3f716bebdab1.js    125 KiB  application  [emitted] [immutable]  application
+js/application-e421b4aa3f716bebdab1.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-e421b4aa3f716bebdab1.js js/application-e421b4aa3f716bebdab1.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 3170.5ms | Allocations: 8993)
+Completed 200 OK in 3183ms (Views: 3176.0ms | ActiveRecord: 0.0ms | Allocations: 15274)
+
+
+Started GET "/armstrongs_numbers/view.xml?v1=3&commit=%D0%A0%D0%B5%D0%B7%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%82" for ::1 at 2021-12-12 17:28:51 +0300
+Processing by ArmstrongsNumbersController#view as XML
+  Parameters: {"v1"=>"3", "commit"=>"Результат"}
+Completed 200 OK in 67ms (Views: 65.4ms | ActiveRecord: 0.0ms | Allocations: 6747)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-12 17:48:44 +0300
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ArmstrongsNumbersController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering armstrongs_numbers/input.html.erb within layouts/application
+  Rendered armstrongs_numbers/input.html.erb within layouts/application (Duration: 1.0ms | Allocations: 746)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 61.5ms | Allocations: 7363)
+Completed 200 OK in 73ms (Views: 66.2ms | ActiveRecord: 0.0ms | Allocations: 13644)
+
+
+Started GET "/armstrongs_numbers/view.xml?v1=3&commit=%D0%A0%D0%B5%D0%B7%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%82" for 127.0.0.1 at 2021-12-12 17:48:46 +0300
+Processing by ArmstrongsNumbersController#view as XML
+  Parameters: {"v1"=>"3", "commit"=>"Результат"}
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 5241)
+
+
+Started GET "/" for ::1 at 2021-12-12 20:56:47 +0300
+  [1m[35m (8.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ArmstrongsNumbersController#view as HTML
+Completed 500 Internal Server Error in 33ms (ActiveRecord: 0.0ms | Allocations: 2233)
+
+
+  
+TypeError (can't iterate from Rational):
+  
+app/controllers/armstrongs_numbers_controller.rb:36:in `find_numbers'
+app/controllers/armstrongs_numbers_controller.rb:18:in `view'
+Started GET "/?v1=3&format=xml" for ::1 at 2021-12-12 20:58:36 +0300
+Processing by ArmstrongsNumbersController#view as XML
+  Parameters: {"v1"=>"3"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 3361)
+
+
+  
+TypeError (can't iterate from Rational):
+  
+app/controllers/armstrongs_numbers_controller.rb:36:in `find_numbers'
+app/controllers/armstrongs_numbers_controller.rb:18:in `view'
+Started GET "/?v1=3&format=xml" for ::1 at 2021-12-12 20:58:56 +0300
+Processing by ArmstrongsNumbersController#view as XML
+  Parameters: {"v1"=>"3"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 3310)
+
+
+  
+TypeError (can't iterate from Rational):
+  
+app/controllers/armstrongs_numbers_controller.rb:36:in `find_numbers'
+app/controllers/armstrongs_numbers_controller.rb:18:in `view'
+Started GET "/?v1=3&format=xml" for ::1 at 2021-12-12 20:58:59 +0300
+Processing by ArmstrongsNumbersController#view as XML
+  Parameters: {"v1"=>"3"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 3310)
+
+
+  
+TypeError (can't iterate from Rational):
+  
+app/controllers/armstrongs_numbers_controller.rb:36:in `find_numbers'
+app/controllers/armstrongs_numbers_controller.rb:18:in `view'
+Started GET "/?v1=3&format=xml" for ::1 at 2021-12-12 21:00:59 +0300
+Processing by ArmstrongsNumbersController#view as XML
+  Parameters: {"v1"=>"3"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 3310)
+
+
+  
+TypeError (can't iterate from Rational):
+  
+app/controllers/armstrongs_numbers_controller.rb:36:in `find_numbers'
+app/controllers/armstrongs_numbers_controller.rb:18:in `view'
+Started GET "/?v1=1&format=xml" for ::1 at 2021-12-12 21:14:17 +0300
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ArmstrongsNumbersController#view as XML
+  Parameters: {"v1"=>"1"}
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms | Allocations: 1980)
+
+
+  
+TypeError (can't iterate from Rational):
+  
+app/controllers/armstrongs_numbers_controller.rb:36:in `find_numbers'
+app/controllers/armstrongs_numbers_controller.rb:18:in `view'
+Started GET "/?v1=1&format=xml" for ::1 at 2021-12-12 21:19:04 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"1"}
+Completed 500 Internal Server Error in 1ms (Allocations: 713)
+
+
+  
+TypeError (can't iterate from Rational):
+  
+app/controllers/armstrongs_numbers_controller.rb:36:in `find_numbers'
+app/controllers/armstrongs_numbers_controller.rb:18:in `index'
+Started GET "/?v1=3&format=xml" for ::1 at 2021-12-12 21:19:10 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"3"}
+Completed 500 Internal Server Error in 1ms (Allocations: 3311)
+
+
+  
+TypeError (can't iterate from Rational):
+  
+app/controllers/armstrongs_numbers_controller.rb:36:in `find_numbers'
+app/controllers/armstrongs_numbers_controller.rb:18:in `index'
+Started GET "/" for ::1 at 2021-12-12 21:20:47 +0300
+Processing by ArmstrongsNumbersController#index as HTML
+Completed 500 Internal Server Error in 2ms (Allocations: 905)
+
+
+  
+TypeError (can't iterate from Rational):
+  
+app/controllers/armstrongs_numbers_controller.rb:36:in `find_numbers'
+app/controllers/armstrongs_numbers_controller.rb:18:in `index'
+Started GET "/?v1=3&format=xml" for ::1 at 2021-12-12 21:22:05 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"3"}
+Completed 500 Internal Server Error in 1ms (Allocations: 3360)
+
+
+  
+TypeError (can't iterate from Rational):
+  
+app/controllers/armstrongs_numbers_controller.rb:36:in `find_numbers'
+app/controllers/armstrongs_numbers_controller.rb:18:in `index'
+Started GET "/?v1=3&format=xml" for ::1 at 2021-12-12 21:30:53 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"3"}
+Completed 500 Internal Server Error in 2ms (Allocations: 3447)
+
+
+  
+TypeError (can't iterate from Rational):
+  
+app/controllers/armstrongs_numbers_controller.rb:37:in `find_numbers'
+app/controllers/armstrongs_numbers_controller.rb:18:in `index'
+Started GET "/?v1=1&format=xml" for ::1 at 2021-12-12 21:31:01 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"1"}
+Completed 500 Internal Server Error in 1ms (Allocations: 659)
+
+
+  
+TypeError (can't iterate from Rational):
+  
+app/controllers/armstrongs_numbers_controller.rb:37:in `find_numbers'
+app/controllers/armstrongs_numbers_controller.rb:18:in `index'
+Started GET "/?v1=1&format=xml" for ::1 at 2021-12-12 21:31:24 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"1"}
+Completed 500 Internal Server Error in 2ms (Allocations: 734)
+
+
+  
+TypeError (can't iterate from Rational):
+  
+app/controllers/armstrongs_numbers_controller.rb:37:in `find_numbers'
+app/controllers/armstrongs_numbers_controller.rb:18:in `index'
+Started GET "/?v1=3&format=xml" for ::1 at 2021-12-12 21:31:46 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"3"}
+Completed 500 Internal Server Error in 8ms (Allocations: 3375)
+
+
+  
+TypeError (can't iterate from Rational):
+  
+app/controllers/armstrongs_numbers_controller.rb:37:in `find_numbers'
+app/controllers/armstrongs_numbers_controller.rb:18:in `index'
+Started GET "/?v1=5&format=xml" for ::1 at 2021-12-12 21:33:32 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"5"}
+Completed 500 Internal Server Error in 191ms (Allocations: 270686)
+
+
+  
+TypeError (can't iterate from Rational):
+  
+app/controllers/armstrongs_numbers_controller.rb:38:in `find_numbers'
+app/controllers/armstrongs_numbers_controller.rb:19:in `index'
+Started GET "/?v1=5&format=xml" for ::1 at 2021-12-12 21:34:40 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"5"}
+Completed 500 Internal Server Error in 164ms (Allocations: 270703)
+
+
+  
+TypeError (can't iterate from Rational):
+  
+app/controllers/armstrongs_numbers_controller.rb:38:in `find_numbers'
+app/controllers/armstrongs_numbers_controller.rb:18:in `index'
+Started GET "/?v1=5&format=xml" for ::1 at 2021-12-12 21:35:32 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"5"}
+Completed 200 OK in 493ms (Views: 300.8ms | Allocations: 272387)
+
+
+Started GET "/?v1=3&format=xml" for ::1 at 2021-12-12 21:35:39 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"3"}
+Completed 200 OK in 3ms (Views: 0.9ms | Allocations: 3923)
+
+
+Started GET "/?v1=3&format=xml" for ::1 at 2021-12-12 21:40:54 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"3"}
+Completed 200 OK in 2ms (Views: 0.8ms | Allocations: 3870)
+
+
+Started GET "/?v1=3&format=xml" for ::1 at 2021-12-12 21:40:58 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"3"}
+Completed 200 OK in 6ms (Views: 1.9ms | Allocations: 3872)
+
+
+Started GET "/?v1=3&format=xml" for ::1 at 2021-12-12 21:41:01 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"3"}
+Completed 200 OK in 3ms (Views: 1.1ms | Allocations: 3871)
+
+
+Started GET "/?v1=3&format=xml" for ::1 at 2021-12-12 21:41:16 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"3"}
+Completed 200 OK in 2ms (Views: 0.6ms | Allocations: 3868)
+
+
+Started GET "/?v1=3&format=xml" for ::1 at 2021-12-12 21:41:18 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"3"}
+Completed 200 OK in 3ms (Views: 0.8ms | Allocations: 3868)
+
+
+Started GET "/?v1=1&format=xml" for ::1 at 2021-12-12 21:46:54 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"1"}
+Completed 200 OK in 3ms (Views: 1.6ms | Allocations: 2011)
+
+
+Started GET "/?v1=2&format=xml" for ::1 at 2021-12-12 21:47:05 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"2"}
+Completed 200 OK in 1ms (Views: 0.4ms | Allocations: 727)
+
+
+Started GET "/?v1=2&format=xml" for ::1 at 2021-12-12 21:47:08 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"2"}
+Completed 200 OK in 2ms (Views: 0.4ms | Allocations: 725)
+
+
+Started GET "/?v1=d&format=xml" for ::1 at 2021-12-12 21:47:34 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"d"}
+Completed 200 OK in 1ms (Views: 0.2ms | Allocations: 730)
+
+
+Started GET "/?v1=d&format=xml" for ::1 at 2021-12-12 21:47:37 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"d"}
+Completed 200 OK in 1ms (Views: 0.2ms | Allocations: 729)
+
+
+Started GET "/?v1=d&format=xml" for ::1 at 2021-12-12 21:47:41 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"d"}
+Completed 200 OK in 1ms (Views: 0.2ms | Allocations: 729)
+
+
+Started GET "/?v1=d&format=xml" for ::1 at 2021-12-12 21:47:57 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"d"}
+Completed 200 OK in 1ms (Views: 0.2ms | Allocations: 729)
+
+
+Started GET "/?v1=d&format=xml" for ::1 at 2021-12-12 21:48:45 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"d"}
+Completed 200 OK in 2ms (Views: 0.9ms | Allocations: 729)
+
+
+Started GET "/?v1=123&format=xml" for ::1 at 2021-12-12 21:48:49 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"123"}
+Completed 200 OK in 1ms (Views: 0.3ms | Allocations: 429)
+
+
+Started GET "/?v1=123&format=xml" for ::1 at 2021-12-12 21:49:09 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"123"}
+Completed 200 OK in 1ms (Views: 0.3ms | Allocations: 429)
+
+
+Started GET "/?v1=5&format=xml" for ::1 at 2021-12-12 21:49:39 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"5"}
+Completed 200 OK in 110ms (Views: 0.8ms | Allocations: 271019)
+
+
+Started GET "/?v1=5&format=xml" for ::1 at 2021-12-12 21:49:44 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"5"}
+Completed 200 OK in 139ms (Views: 1.4ms | Allocations: 271019)
+
+
+Started GET "/?v1=5&format=xml" for ::1 at 2021-12-12 21:49:48 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"5"}
+Completed 200 OK in 132ms (Views: 1.1ms | Allocations: 271019)
+
+
+Started GET "/?v1=5&format=xml" for ::1 at 2021-12-12 21:54:28 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"5"}
+Completed 200 OK in 135ms (Views: 0.9ms | Allocations: 271020)
+
+
+Started GET "/?v1=5&format=xml" for ::1 at 2021-12-12 21:55:15 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"5"}
+Completed 200 OK in 101ms (Views: 0.7ms | Allocations: 271019)
+
+
+Started GET "/?v1=5&format=xml" for ::1 at 2021-12-12 21:55:21 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"5"}
+Completed 200 OK in 117ms (Views: 0.7ms | Allocations: 271019)
+
+
+Started GET "/?v1=5&format=xml" for ::1 at 2021-12-12 21:55:25 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"5"}
+Completed 200 OK in 89ms (Views: 0.6ms | Allocations: 271019)
+
+
+Started GET "/?v1=5&format=xml" for ::1 at 2021-12-12 21:55:31 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"5"}
+Completed 200 OK in 83ms (Views: 0.6ms | Allocations: 271019)
+
+
+Started GET "/?v1=sdjjd&format=xml" for ::1 at 2021-12-12 21:55:38 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"sdjjd"}
+Completed 200 OK in 1ms (Views: 0.3ms | Allocations: 729)
+
+
+Started GET "/?v1=sdjjd&format=xml" for ::1 at 2021-12-12 21:55:41 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"sdjjd"}
+Completed 200 OK in 1ms (Views: 0.4ms | Allocations: 729)
+
+
+Started GET "/?v1=sdjjd&format=xml" for ::1 at 2021-12-12 21:55:44 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"sdjjd"}
+Completed 200 OK in 1ms (Views: 0.3ms | Allocations: 729)
+
+
+Started GET "/?v1=sdjjd&format=xml" for ::1 at 2021-12-12 22:06:57 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"sdjjd"}
+Completed 200 OK in 1ms (Views: 0.4ms | Allocations: 729)
+
+
+Started GET "/?v1=sdjjd&format=xml" for ::1 at 2021-12-12 22:07:10 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"sdjjd"}
+Completed 200 OK in 1ms (Views: 0.3ms | Allocations: 729)
+
+
+Started GET "/?v1=123&format=xml" for ::1 at 2021-12-12 22:07:14 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"123"}
+Completed 200 OK in 1ms (Views: 0.3ms | Allocations: 429)
+
+
+Started GET "/?v1=123&format=xml" for ::1 at 2021-12-12 22:11:13 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"123"}
+Completed 200 OK in 1ms (Views: 0.4ms | Allocations: 429)
+
+
+Started GET "/?v1=das&format=xml" for ::1 at 2021-12-12 22:11:19 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"das"}
+Completed 200 OK in 1ms (Views: 0.4ms | Allocations: 729)
+
+
+Started GET "/?v1=das&format=xml" for ::1 at 2021-12-12 22:12:11 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"das"}
+Completed 200 OK in 1ms (Views: 0.4ms | Allocations: 729)
+
+
+Started GET "/?v1=3&format=xml" for ::1 at 2021-12-12 22:21:26 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"3"}
+Completed 200 OK in 2ms (Views: 0.5ms | Allocations: 3868)
+
+
+Started GET "/?v1=123&format=xml" for ::1 at 2021-12-12 22:21:32 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"123"}
+Completed 200 OK in 1ms (Views: 0.4ms | Allocations: 429)
+
+
+Started GET "/?v1=123&format=xml" for ::1 at 2021-12-12 22:24:02 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"123"}
+Completed 200 OK in 1ms (Views: 0.4ms | Allocations: 429)
+
+
+Started GET "/?v1=123&format=xml" for ::1 at 2021-12-12 22:24:04 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"123"}
+Completed 200 OK in 1ms (Views: 0.2ms | Allocations: 429)
+
+
+Started GET "/?v1=123&format=xml" for ::1 at 2021-12-12 22:24:16 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"123"}
+Completed 200 OK in 1ms (Views: 0.2ms | Allocations: 429)
+
+
+Started GET "/?v1=123&format=xml" for ::1 at 2021-12-12 22:24:27 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"123"}
+Completed 200 OK in 2ms (Views: 0.4ms | Allocations: 429)
+
+
+Started GET "/?v1=2&format=xml" for ::1 at 2021-12-12 22:24:34 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"2"}
+Completed 200 OK in 1ms (Views: 0.3ms | Allocations: 725)
+
+
+Started GET "/?v1=2&format=xml" for ::1 at 2021-12-12 22:24:49 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"2"}
+Completed 200 OK in 3ms (Views: 0.2ms | Allocations: 725)
+
+
+Started GET "/?v1=3&format=xml" for ::1 at 2021-12-12 22:24:55 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"3"}
+Completed 200 OK in 6ms (Views: 1.2ms | Allocations: 3870)
+
+
+Started GET "/?v1=5&format=xml" for ::1 at 2021-12-12 22:26:00 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"5"}
+Completed 200 OK in 79ms (Views: 0.4ms | Allocations: 271019)
+
+
+Started GET "/?v1=slkdf&format=xml" for ::1 at 2021-12-12 22:26:19 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"slkdf"}
+Completed 200 OK in 1ms (Views: 0.4ms | Allocations: 729)
+
+
+Started GET "/?v1=slkdf&format=xml" for ::1 at 2021-12-12 22:27:08 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"slkdf"}
+Completed 200 OK in 1ms (Views: 0.2ms | Allocations: 729)
+
+
+Started GET "/?v1=3&format=xml" for ::1 at 2021-12-12 22:27:12 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"3"}
+Completed 200 OK in 2ms (Views: 0.6ms | Allocations: 3868)
+
+
+Started GET "/?v1=3&format=xml" for ::1 at 2021-12-12 22:27:40 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"3"}
+Completed 200 OK in 3ms (Views: 0.5ms | Allocations: 3868)
+
+
+Started GET "/?v1=3&format=xml" for ::1 at 2021-12-12 22:27:45 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"3"}
+Completed 200 OK in 2ms (Views: 0.5ms | Allocations: 3868)
+
+
+Started GET "/?v1=3&format=xml" for ::1 at 2021-12-12 22:28:00 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"3"}
+Completed 200 OK in 2ms (Views: 0.7ms | Allocations: 4000)
+
+
+Started GET "/?v1=&format=xml" for ::1 at 2021-12-12 23:12:06 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>""}
+Completed 200 OK in 1ms (Views: 0.4ms | Allocations: 837)
+
+
+Started GET "/?v1=&format=xml" for ::1 at 2021-12-12 23:12:09 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>""}
+Completed 200 OK in 1ms (Views: 0.4ms | Allocations: 729)
+
+
+Started GET "/?v1=&format=xml" for ::1 at 2021-12-12 23:12:15 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>""}
+Completed 200 OK in 1ms (Views: 0.3ms | Allocations: 729)
+
+
+Started GET "/?v1=&format=xml" for ::1 at 2021-12-12 23:12:17 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>""}
+Completed 200 OK in 1ms (Views: 0.2ms | Allocations: 729)
+
+
+Started GET "/?v1=&format=xml" for ::1 at 2021-12-12 23:12:20 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>""}
+Completed 200 OK in 1ms (Views: 0.2ms | Allocations: 729)
+
+
+Started GET "/" for ::1 at 2021-12-12 23:12:28 +0300
+Processing by ArmstrongsNumbersController#index as HTML
+Completed 406 Not Acceptable in 1ms (Allocations: 881)
+
+
+  
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  
+app/controllers/armstrongs_numbers_controller.rb:18:in `index'
+Started GET "/?v1=3&format=xml" for ::1 at 2021-12-12 23:12:52 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"3"}
+Completed 200 OK in 3ms (Views: 1.0ms | Allocations: 3858)
+
+
+Started GET "/?v1=3&format=xml" for ::1 at 2021-12-12 23:12:54 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"3"}
+Completed 200 OK in 2ms (Views: 0.7ms | Allocations: 3853)
+
+
+Started GET "/?v1=3&format=xml" for ::1 at 2021-12-12 23:12:56 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"3"}
+Completed 200 OK in 3ms (Views: 0.9ms | Allocations: 3853)
+
+
+Started GET "/?v1=3&format=xml" for ::1 at 2021-12-13 09:40:56 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"3"}
+Completed 200 OK in 12ms (Views: 7.9ms | Allocations: 3853)
+
+
+Started GET "/?v1=3&format=xml" for ::1 at 2021-12-13 09:41:00 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"3"}
+Completed 200 OK in 8ms (Views: 2.6ms | Allocations: 3855)
+
+
+Started GET "/?v1=3&format=xml" for ::1 at 2021-12-13 09:43:25 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"3"}
+Completed 200 OK in 6ms (Views: 2.2ms | Allocations: 3853)
+
+
+Started GET "/?v1=3&format=xml" for ::1 at 2021-12-13 09:43:30 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"3"}
+Completed 200 OK in 5ms (Views: 1.9ms | Allocations: 3853)
+
+
+Started GET "/?v1=3&format=xml" for ::1 at 2021-12-13 09:43:35 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"3"}
+Completed 200 OK in 5ms (Views: 2.0ms | Allocations: 3853)
+
+
+Started GET "/?v1=7&format=xml" for ::1 at 2021-12-13 09:43:41 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"7"}
+Completed 200 OK in 32369ms (Views: 1.9ms | Allocations: 27001289)
+
+
+Started GET "/?v1=4&format=xml" for ::1 at 2021-12-13 09:44:33 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"4"}
+Completed 200 OK in 33ms (Views: 2.2ms | Allocations: 27989)
+
+
+Started GET "/?v1=3&format=xml" for ::1 at 2021-12-13 09:46:01 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"3"}
+Completed 200 OK in 8ms (Views: 5.1ms | Allocations: 3853)
+
+
+Started GET "/?v1=3&format=xml" for ::1 at 2021-12-13 09:47:03 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"3"}
+Completed 200 OK in 5ms (Views: 1.7ms | Allocations: 3855)
+
+
+Started GET "/?v1=3&format=xml" for ::1 at 2021-12-13 09:48:13 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"3"}
+Completed 200 OK in 2ms (Views: 0.8ms | Allocations: 3853)
+
+
+Started GET "/?v1=3&format=xml" for ::1 at 2021-12-13 09:48:46 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"3"}
+Completed 200 OK in 2ms (Views: 0.7ms | Allocations: 3853)
+
+
+Started GET "/?v1=3&format=xml" for ::1 at 2021-12-13 09:50:07 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"3"}
+Completed 200 OK in 4ms (Views: 2.0ms | Allocations: 3853)
+
+
+Started GET "/?v1=3&format=xml" for ::1 at 2021-12-13 09:52:33 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"3"}
+Completed 200 OK in 5ms (Views: 2.7ms | Allocations: 3853)
+
+
+Started GET "/?v1=3&format=xml" for ::1 at 2021-12-13 09:53:00 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"3"}
+Completed 200 OK in 2ms (Views: 0.6ms | Allocations: 3853)
+
+
+Started GET "/?v1=3&format=xml" for ::1 at 2021-12-13 09:53:24 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"3"}
+Completed 200 OK in 2ms (Views: 0.7ms | Allocations: 3853)
+
+
+Started GET "/?v1=3&format=xml" for ::1 at 2021-12-13 09:54:13 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"3"}
+Completed 200 OK in 3ms (Views: 1.1ms | Allocations: 3853)
+
+
+Started GET "/?v1=3&format=xml" for ::1 at 2021-12-13 09:54:53 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"3"}
+Completed 200 OK in 2ms (Views: 0.7ms | Allocations: 3853)
+
+
+Started GET "/?v1=3&format=xml" for ::1 at 2021-12-13 09:55:55 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"3"}
+Completed 200 OK in 9ms (Views: 7.0ms | Allocations: 3853)
+
+
+Started GET "/?v1=123&format=xml" for ::1 at 2021-12-13 09:57:10 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"123"}
+Completed 200 OK in 1ms (Views: 0.5ms | Allocations: 431)
+
+
+Started GET "/?v1=123&format=xml" for ::1 at 2021-12-13 09:58:37 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"123"}
+Completed 200 OK in 2ms (Views: 0.8ms | Allocations: 429)
+
+
+Started GET "/?v1=123&format=xml" for ::1 at 2021-12-13 09:59:01 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"123"}
+Completed 200 OK in 2ms (Views: 0.9ms | Allocations: 429)
+
+
+Started GET "/?v1=123&format=xml" for ::1 at 2021-12-13 09:59:21 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"123"}
+Completed 200 OK in 2ms (Views: 0.9ms | Allocations: 429)
+
+
+Started GET "/?v1=123&format=xml" for ::1 at 2021-12-13 10:02:00 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"123"}
+Completed 200 OK in 1ms (Views: 0.4ms | Allocations: 429)
+
+
+Started GET "/?v1=123&format=xml" for ::1 at 2021-12-13 10:02:21 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"123"}
+Completed 200 OK in 1ms (Views: 0.4ms | Allocations: 429)
+
+
+Started GET "/?v1=3&format=xml" for ::1 at 2021-12-13 10:03:32 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"3"}
+Completed 200 OK in 2ms (Views: 0.8ms | Allocations: 3853)
+
+
+Started GET "/?v1=3&format=xml" for ::1 at 2021-12-13 10:04:00 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"3"}
+Completed 200 OK in 6ms (Views: 2.0ms | Allocations: 3853)
+
+
+Started GET "/?v1=3&format=xml" for ::1 at 2021-12-13 10:06:10 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"3"}
+Completed 200 OK in 5ms (Views: 2.2ms | Allocations: 3853)
+
+
+Started GET "/?v1=3&format=xml" for ::1 at 2021-12-13 10:06:46 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"3"}
+Completed 200 OK in 9ms (Views: 5.5ms | Allocations: 3853)
+
+
+Started GET "/?v1=3&format=xml" for ::1 at 2021-12-13 10:08:32 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"3"}
+Completed 200 OK in 8ms (Views: 2.0ms | Allocations: 3853)
+
+
+Started GET "/?v1=3&format=xml" for ::1 at 2021-12-13 10:08:39 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"3"}
+Completed 200 OK in 6ms (Views: 1.3ms | Allocations: 3853)
+
+
+Started GET "/?v1=3&format=xml" for ::1 at 2021-12-13 10:08:56 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"3"}
+Completed 200 OK in 10ms (Views: 1.8ms | Allocations: 3855)
+
+
+Started GET "/?v1=hello&format=xml" for ::1 at 2021-12-13 10:09:29 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"hello"}
+Completed 200 OK in 2ms (Views: 0.7ms | Allocations: 729)
+
+
+Started GET "/?v1=hello&format=xml" for ::1 at 2021-12-13 10:10:06 +0300
+Processing by ArmstrongsNumbersController#index as XML
+  Parameters: {"v1"=>"hello"}
+Completed 200 OK in 4ms (Views: 1.0ms | Allocations: 729)
+
+

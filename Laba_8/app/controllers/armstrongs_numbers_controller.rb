@@ -15,7 +15,7 @@ class ArmstrongsNumbersController < ApplicationController
       end
     rescue StandardError
       @result = 'Пусто'
-      @numbers = 'Empty!'
+      @numbers = 'Incorrect!'
     end
     respond_to do |format|
       format.html

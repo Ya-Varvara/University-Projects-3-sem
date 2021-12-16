@@ -2843,3 +2843,76 @@ Processing by ArmstController#input as HTML
 Completed 200 OK in 50ms (Views: 48.7ms | ActiveRecord: 0.0ms | Allocations: 4563)
 
 
+Started GET "/" for 127.0.0.1 at 2021-12-17 00:55:33 +0300
+  [1m[35m (25.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ArmstController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering armst/input.html.erb within layouts/application
+  Rendered armst/input.html.erb within layouts/application (Duration: 29.1ms | Allocations: 885)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+yarn run v1.22.17
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+
+
+error Command "webpack" not found.
+
+  Rendered layout layouts/application.html.erb (Duration: 3668.3ms | Allocations: 18014)
+Completed 200 OK in 3906ms (Views: 3765.9ms | ActiveRecord: 0.0ms | Allocations: 22849)
+
+
+Started GET "/armst/view?v1=3&side=server&commit=%D0%A0%D0%B5%D0%B7%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%82" for 127.0.0.1 at 2021-12-17 00:55:44 +0300
+Processing by ArmstController#view as HTML
+  Parameters: {"v1"=>"3", "side"=>"server", "commit"=>"Результат"}
+  Rendering layout layouts/application.html.erb
+  Rendering armst/view.html.erb within layouts/application
+  Rendering inline template
+  Rendered inline template (Duration: 0.6ms | Allocations: 193)
+  Rendered armst/view.html.erb within layouts/application (Duration: 13.3ms | Allocations: 611)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 61.2ms | Allocations: 4447)
+Completed 200 OK in 732ms (Views: 62.8ms | ActiveRecord: 0.0ms | Allocations: 6419)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-17 00:55:46 +0300
+Processing by ArmstController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering armst/input.html.erb within layouts/application
+  Rendered armst/input.html.erb within layouts/application (Duration: 0.6ms | Allocations: 202)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 47.1ms | Allocations: 3869)
+Completed 200 OK in 49ms (Views: 48.3ms | ActiveRecord: 0.0ms | Allocations: 4431)
+
+
+Started GET "/armst/view?v1=3&side=client&commit=%D0%A0%D0%B5%D0%B7%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%82" for 127.0.0.1 at 2021-12-17 00:55:48 +0300
+Processing by ArmstController#view as HTML
+  Parameters: {"v1"=>"3", "side"=>"client", "commit"=>"Результат"}
+Completed 200 OK in 182ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 1069)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-17 00:55:49 +0300
+Processing by ArmstController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering armst/input.html.erb within layouts/application
+  Rendered armst/input.html.erb within layouts/application (Duration: 0.4ms | Allocations: 215)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 57.0ms | Allocations: 4012)
+Completed 200 OK in 60ms (Views: 58.9ms | ActiveRecord: 0.0ms | Allocations: 4567)
+
+
+Started GET "/armst/view?v1=3&side=client-with-xslt&commit=%D0%A0%D0%B5%D0%B7%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%82" for 127.0.0.1 at 2021-12-17 00:55:51 +0300
+Processing by ArmstController#view as HTML
+  Parameters: {"v1"=>"3", "side"=>"client-with-xslt", "commit"=>"Результат"}
+Completed 200 OK in 97ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 1084)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-17 00:55:52 +0300
+Processing by ArmstController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering armst/input.html.erb within layouts/application
+  Rendered armst/input.html.erb within layouts/application (Duration: 0.4ms | Allocations: 215)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 51.0ms | Allocations: 4006)
+Completed 200 OK in 54ms (Views: 52.3ms | ActiveRecord: 0.0ms | Allocations: 4560)
+
+

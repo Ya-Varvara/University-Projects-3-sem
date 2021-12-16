@@ -8,5 +8,12 @@
       <jdbc-url>jdbc:sqlite:C:\Users\varia\Desktop\University\3 SEM\WebProg\University-Projects\Laba_11\db\development.sqlite3</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="development [2]" uuid="fcf6aa53-2edb-4de3-b53c-f19d97bf8375">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\Users\varia\Desktop\University\3 SEM\WebProg\University-Projects\Laba_12\db\development.sqlite3</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>

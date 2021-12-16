@@ -35,7 +35,9 @@ class ArmstController < ApplicationController
 
   def results
     result = Armst.all.map { |el| { number: el.number, decomp: ActiveSupport::JSON.decode(el.decomp) } }
+
     respond_to do |format|
+      format.html
       format.xml { render xml: result.to_xml }
     end
   end

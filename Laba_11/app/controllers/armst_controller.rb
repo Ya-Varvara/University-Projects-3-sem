@@ -23,25 +23,15 @@ class ArmstController < ApplicationController
       @numbers = find_numbers(@received)
       Armst.create(number: @received, decomp: ActiveSupport::JSON.encode(@numbers))
     end
-
-    respond_to do |format|
-      format.html
-      format.json do
-        render json:
-                 { type: @numbers.class, value: @numbers }
-      end
-    end
   end
 
   def results
     result = Armst.all.map { |el| { number: el.number, decomp: ActiveSupport::JSON.decode(el.decomp) } }
 
     respond_to do |format|
-      format.html
       format.xml { render xml: result.to_xml }
     end
   end
-
 
   def num_degree(len)
     (0..9).map { |x| x**len }
@@ -59,4 +49,5 @@ class ArmstController < ApplicationController
     end
     numbers
   end
+
 end

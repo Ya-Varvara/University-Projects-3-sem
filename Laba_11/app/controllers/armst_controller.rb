@@ -16,18 +16,17 @@ class ArmstController < ApplicationController
       else
         num = Armst.find_by!(number: @received)
         @result = "Числа Армстронга длиной #{@received}"
-        @numbers = ActiveSupport::JSON.decode(num.decomp)
+        @numbers = num.decomp
       end
     rescue ActiveRecord::RecordNotFound
       @result = "Числа Армстронга длиной #{@received}"
       @numbers = find_numbers(@received)
-      Armst.create(number: @received, decomp: ActiveSupport::JSON.encode(@numbers))
+      Armst.create(number: @received, decomp: @number)
     end
   end
 
   def results
-    result = Armst.all.map { |el| { number: el.number, decomp: ActiveSupport::JSON.decode(el.decomp) } }
-
+    result = Armst.all.map { |el| { number: el.number, decomp: el.decomp } }
     respond_to do |format|
       format.xml { render xml: result.to_xml }
     end
